@@ -1,0 +1,13 @@
+group '200-Box in a box'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scalatest:scalatest_2.11:3.0.0-M15'
+    compile 'org.scala-lang:scala-library:2.10.1'
+}
